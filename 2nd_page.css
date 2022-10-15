@@ -66,11 +66,11 @@ height: 20px;
 width: 300px;
 
 border-width: 2px;
-border-color:rgba(53, 235, 255, 0.304);
-/* border-bottom-color: rgb(48, 53, 53); */
+border-color:rgb(53, 48, 48);
+border-bottom-color: rgb(53, 48, 48);
 border-style: solid;
 padding: 12px 12px 34px 15px;
-margin-bottom: 20px;
+margin-bottom: 10px;
 color: white;
    }
    .image{
@@ -117,7 +117,7 @@ color: white;
     background-color: rgb(0, 0, 0);
     height: 70px;
     align-items: center;
-    color: rgba(53, 235, 255, 0.61);
+    color: #14ffec;
     position: sticky;
     top: 0;
     opacity: 100%;
@@ -126,48 +126,17 @@ color: white;
     list-style-type: none;
     display: flex;
     margin-right: 30px;
-    position: relative;
-
   }
   h2 {
-    font-family: Prompt, sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin-left: 60px;
     font-weight: 700;
   }
-  .content_small {
-    align-content: center;
-    justify-content: center;
-    margin-left: 20px;
-
-}
-.small:hover {
-  background-color: black;
-  opacity: 80%;
-  /* border-radius: 25px; */
-  border-width: 3.5px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  font-size: large;
-  /* font-weight: bold; */
-  font-weight: 20;
-  text-shadow: -1px 1px 0 #000,
-      1px 1px 0 #000,
-      1px -1px 0 #000,
-      -1px -1px 0 #000;
-  ;
-  color: white;
-}
-.small .content_small {
-  display: none;
-}
-.small:hover .content_small {
-  display: block;
-}
   li {
-    color: rgba(53, 235, 255, 0.61);
+    color: #14ffec;
     padding: 20px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 22px;
     font-family: "Open Sans", sans-serif;
     transition: font-size 1s;
   }
@@ -181,23 +150,21 @@ color: white;
   
   .input {
     padding: 8px;
-    margin-right: 12px;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background: none;
-    border: 4px solid rgba(53, 235, 255, 0.61);
+    border: 4px solid #14ffec;
     border-radius: 50px;
     box-sizing: border-box;
-    font-family: Prompt, sans-serif;
-    font-size: 12px;
-    font-weight: 20;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
     color: white;
     outline: none;
     transition: 0.5s;
   }
   .box2:hover input {
-    width: 370px;
-    background: #2dd5ff1a;
+    width: 350px;
+    background: #3b3640;
     border-radius: 10px;
   }
   .box2 i {
@@ -265,7 +232,7 @@ color: white;
   li :hover {
     cursor: pointer;
     /* font-size: 25px; */
-    color: rgb(70, 255, 255);
+    color: goldenrod;
   }
   #watch :hover {
     background-color: red;
